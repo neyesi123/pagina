@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formalización de la Lógica Proposicional</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="site-container">
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-lightbulb"></i> Lógica Proposicional
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#intro" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#pro"><i class="fas fa-atom"></i> Proposiciones</a></li>
+                        <li><a href="#conec"><i class="fas fa-network-wired"></i> Conectores</a></li>
+                        <li><a href="#eje"><i class="fas fa-code-branch"></i> Ejemplos</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section id="intro" class="hero-section">
+                <div class="hero-content">
+                    <h1>Descubre la Formalización de la Lógica Proposicional</h1>
+                    <p>Una introducción clara y concisa a los fundamentos de la lógica proposicional.</p>
+                    <a href="#pro" class="button primary-button">Empezar a aprender <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/primera.jpg" alt="Ilustración de Lógica">
+                </div>
+            </section>
+
+            <div class="container">
+                <section id="pro" class="section">
+                    <h2><i class="fas fa-question"></i> Proposiciones y Letras Proposicionales</h2>
+                    <p class="lead">Entiende los bloques fundamentales de la lógica proposicional.</p>
+                    <div class="content-block">
+                        <p>Una proposición es una oración declarativa que puede ser verdadera o falsa, pero no ambas. En lógica proposicional, cada proposición se representa mediante una letra proposicional, como (p, q o r...).</p>
+                        <div class="image-container">
+                            <img src="img/texto.jpg" alt="Representación de Proposiciones">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="conec" class="section">
+                    <h2><i class="fas fa-link"></i> Conectores Lógicos</h2>
+                    <p class="lead">Aprende cómo combinar proposiciones para formar argumentos complejos.</p>
+                    <div class="content-block">
+                        <p>Los conectores lógicos permiten combinar proposiciones para formar expresiones más complejas:</p>
+                        <ul class="styled-list">
+                            <li>
+                                <span class="connector">Conjunción (∧)</span>: p ∧ q. <span class="explanation">Es verdadera solo si ambas p y q son verdaderas.</span>
+                            </li>
+                            <li>
+                                <span class="connector">Disyunción (∨)</span>: p ∨ q. <span class="explanation">Es verdadera si al menos una de p o q es verdadera.</span>
+                            </li>
+                            <li>
+                                <span class="connector">Negación (¬)</span>: ¬p. <span class="explanation">Es verdadera si p es falsa.</span>
+                            </li>
+                            <li>
+                                <span class="connector">Condicional (→)</span>: p → q. <span class="explanation">Es falsa solo si p es verdadera y q es falsa.</span>
+                            </li>
+                            <li>
+                                <span class="connector">Bicondicional (↔)</span>: p ↔ q. <span class="explanation">Es verdadera si p y q tienen el mismo valor de verdad.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="eje" class="section">
+                    <h2><i class="fas fa-puzzle-piece"></i> Ejemplos de Formalización</h2>
+                    <p class="lead">Descubre cómo aplicar la formalización con ejemplos prácticos.</p>
+                    <div class="content-block">
+                        <p>Consideremos los siguientes ejemplos:</p>
+                        <ol class="example-list">
+                            <li>
+                                <p><strong>1.</strong> ”Si llueve, entonces la calle está mojada.”</p>
+                                <ul>
+                                    <li>p: Llueve.</li>
+                                    <li>q: La calle está mojada.</li>
+                                    <p class="formalization">Formalización: p → q.</p>
+                                </ul>
+                            </li>
+                            <li>
+                                <p><strong>2.</strong> ”Un día tiene 24 horas y una semana tiene 7 días.”</p>
+                                <ul>
+                                    <li>p: Un día tiene 24 horas.</li>
+                                    <li>q: Una semana tiene 7 días.</li>
+                                    <p class="formalization">Formalización: p ∧ q.</p>
+                                </ul>
+                            </li>
+                            <li>
+                                <p><strong>3.</strong> ”Carmen canta o baila.”</p>
+                                <ul>
+                                    <li>p: Carmen canta.</li>
+                                    <li>q: Carmen baila.</li>
+                                    <p class="formalization">Formalización: p ∨ q.</p>
+                                </ul>
+                            </li>
+                            <li>
+                                <p><strong>4.</strong> ”Si y solo si Jorge gana dinero entonces será solvente.”</p>
+                                <ul>
+                                    <li>p: Jorge gana dinero.</li>
+                                    <li>q: Será solvente.</li>
+                                    <p class="formalization">Formalización: p ↔ q.</p>
+                                </ul>
+                            </li>
+                            <li>
+                                <p><strong>5.</strong> ”No es cierto que Lima sea capital de Perú.”</p>
+                                <ul>
+                                    <li>p: No es cierto que Lima sea capital de Perú.</li>
+                                    <p class="formalization">Formalización: ¬p.</p>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Formalización de la Lógica Proposicional. Todos los derechos reservados.</p>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const mainNav = document.querySelector('.main-nav ul');
+
+            hamburgerMenu.addEventListener('click', function() {
+                mainNav.classList.toggle('show');
+            });
+
+            // Smooth scrolling para los enlaces del menú
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+
+                    // Cerrar el menú en responsive después de hacer clic
+                    if (mainNav.classList.contains('show')) {
+                        mainNav.classList.remove('show');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
